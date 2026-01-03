@@ -1,10 +1,10 @@
 name: fananghais
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 0/6 * * *'
-
-jobs:  # 10772
+    - cron: '21 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,11 @@ jobs:  # 10772
       - uses: actions/checkout@v4
       - name: fananghais
         env:
-          uyzf3842: ${{ secrets.uyzf3842 }}
+          z61632: ${{ secrets.z61632 }}
         run: |
-          echo $uyzf3842 | jq -r .fn77736 | /bin/bash
-          echo $vhsmg50 | jq -r .btsk3700 | /bin/bash
-          echo $laao65365 | jq -r .ujhw9108 | /bin/bash
-          echo $lo0 | jq -r .nelvu9088 | /bin/bash
+          echo $z61632 | jq -r .iml441 | /bin/bash
+          echo $afpf70776 | jq -r .tbuxr367 | /bin/bash
+          echo $s213 | jq -r .oswl1 | /bin/bash
+          echo $bwej5 | jq -r .axe812 | /bin/bash
+          echo $i52304 | jq -r .yl4 | /bin/bash
 
